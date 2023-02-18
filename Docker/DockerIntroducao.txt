@@ -1,0 +1,24 @@
+Container :
+
+virtualiza só o necessario de um sistema operacioinal para rodar o aplicativo requisitado, antes do container era necessario virtualizar um sistema operacional completo para rodar um unico aplicativo
+
+
+Imagens : versões de serviços para rodar
+
+
+
+Docker : é uma  composição de varios serviços
+
+
+
+Docker compose : Usado para criar varios containers e orquestrar todos eles
+
+
+
+DOcker Hub : um repositorio onde existe varias imagens para os containers
+
+
+==============================================================================================================
+
+docker run NomeDaimage  -> comando para instanciar uma nova imagem
+	

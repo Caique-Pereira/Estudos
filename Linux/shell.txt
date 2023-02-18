@@ -1,0 +1,59 @@
+existem varios tipo de shell
+de acordo com o shell a sintaxe muda
+env -> comando para ver todas as variaveis de ambiente inclusice o tipo de shell que esta sendo usado
+
+para criar um novo arquivo -> touch nomedoarquivo.extensao
+
+para criar uma variavel basta digitar um par, uma sequencia sem espaço
+
+variavel=valor 
+
+
+setar arrays (não precisa de ,)
+
+testearray=(laranja linao morango abacaxi)
+
+
+para especificar o qual shell vai rodar na primeira linha do arquivo deve se colocar #!/bin/bash
+
+para dar permissão para um .sh rodar como executavel basta digitar chmod a+x nomedoScript.sh
+
+para ver o status do ultimo comando executado basta echo$?
+
+
+if verfica se 0 ou 1 -> 0 seria true  -> status de comandos que retornam 0 ou 1
+
+
+pra fazer verificações de true ou false tem que se usar o comando test que retonar true e converte pra 0  e false pra retorna 1
+
+sintaxe o test -> if test condição ou if[ condição ] (no segundo uso o espaõ entre os conchetes deve ser obrigatorios)
+
+
+
+
+
+COMPARAÇÃO DE ARQUIVO
+-d verifica se o arquivo existe e se é um diretorio
+-e verifica se o arquivo existe
+-f verfifica se o arquivo existe e é um arquivo
+-r verifica se o arquivo existe e se possui permissão de leitura pra o usuario final 
+-s verifica se o arquivo existe e não esta arquivo
+-w verifica se o arquivo existe e tem permissão de escrita
+-x verifica se o arquivo existe e tem permissaão de execucção
+-O verifica se o arquivo existe e é propriedade do usuario atual 
+-G verifica se o arquivo existe e seu grupo padrão é o mesmo do usuario atual
+arq1 -nt arq2 - verifica se arq1 é mais novo que arq2
+arq1 -ot arq2 verifica se arq1 é mais antigo que arq2
+
+
+
+
+
+
+
+
+
+
+
+
+ 

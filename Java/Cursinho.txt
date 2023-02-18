@@ -1,0 +1,17 @@
+Comentarios:
+Não faça comentarios em seu codigo, se esta sendo necessario fazer comentarios é por que o codigo esta ruim e não esta legivel
+caso tenha que fazer foque em comentarios de uma linha ou comentario javaDoc
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Variaveis ( tipos primitivos ) :
+
+No java há 8 tipos primitivos : int, double, float, byte, char, long , short , boolean
+os nomes de uma variavel em java deve começar em minuscolo, se ela for composta a segunda palavra em diante começa com letra maisculas:
+por exemplo :
+
+ int idade; 
+ int idadeDaMae;
+ int numero;
+ int numeroTelefone;
+

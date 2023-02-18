@@ -1,0 +1,4 @@
+Testes unitarios testa uma unidade de um codigo, uma unidade do codigo é metodo por exemplo
+
+JUnit é uma biblioteca para testes unitarios
+ 

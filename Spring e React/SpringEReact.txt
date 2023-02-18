@@ -1,0 +1,26 @@
+Repository
+
+Pacote repositorios, ficas as interfaces repository de cada entidade do banco de dados
+A interface repository que é responsavel por disponiblizar ações do banco de dados como inserir/buscar/atualizar/deletar
+ 
+EXEMPLO:
+
+@Repository
+public interface ProductRepository extends CrudRepository<ProductModel  , Long> {
+    
+}
+	
+===================================================================================================
+Controller
+
+O controller é quem é responsavel por criar as rotas (endpoints) e ter acesso as requisoções do tipo post/get/delete
+essa classe é a intermediaria entre o front e o back end
+
+===================================================================================================
+RESPOSTA MODELO
+
+Classe responsavel por retornar um feedback caso aconteça qualquer erro na api
+
+===================================================================================================
+===================================================================================================
+===================================================================================================

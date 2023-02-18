@@ -1,0 +1,21 @@
+SOLID é um principio, uma boa pratica, necessaria para fazer um bom codigo um clean code
+
+S -> Single responsability principle - >principio da responsabilidade unica
+
+
+Este principio diz que uma classe deve ter um e somente um motivo para ser modificada
+Diz que uma classe só deve ter uma responsabilidade 
+
+
+O -> Open closed Principle - > principio aberto e fechado
+  diz que uma classe tem que estar aberta para extensão mas fechada para modificação 
+
+
+
+L -> liskov substitution principle - principio da substituição de liskov
+
+I -> Interface segregation Principle -> principio da segregação da interface
+
+D -> dependecy inversion principle -> principio da inversção de dependencia
+
+   
